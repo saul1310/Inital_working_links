@@ -2,5 +2,25 @@ to create a link to another page use
  <Link to="/profiles">
 
 
+HERE ARE THE LINKS 
 
+
+<Link to ="/testing">
+    <button> please god work</button>
+  </Link>
+
+  
+  
+  
+  
+  <Link to="/profiles">
+    <button>Go to Profiles Page</button>
+  </Link>
+
+
+  
+  {/* Button to navigate to NotFoundPage */}
+  <Link to="/not-found">
+    <button>Go to Not Found Page</button>
+  </Link>
     
