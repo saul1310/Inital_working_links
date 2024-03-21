@@ -6,7 +6,7 @@ import HomePage from './pages/HomePage';
 import NotFoundPage from './pages/NotFoundPage';
 import ProfilePage from './pages/ProfilePage';
 import ProfilesPage from './pages/ProfilesPage';
-import Testing from './pages/Testing';
+import Register from './pages/Register';
 
 import './index.css';
 
@@ -27,8 +27,8 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: '/testing', // Absolute path without nesting
-    element: <Testing />,
+    path: '/register', // Absolute path without nesting
+    element: <Register />,
   },
 ]);
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import { TouchableOpacity } from 'react-native-web';
 import './styles.css'; // Import CSS file
-import Testing from './Testing';
+import Register from './Register';
 
 
 function HomePage() {
@@ -18,7 +18,7 @@ function HomePage() {
 
 
         <div className='top-bar-right-item'>
-          <Link to ="/testing">
+          <Link to ="/register">
           <button><b> REGISTER</b>
           </button>
           </Link>
@@ -30,8 +30,10 @@ function HomePage() {
           <b>MENU</b>
         </div>
       </div>
-
-      {/* <div className='centered-text'>
+    
+    
+    
+    <div className='centered-text'>
         <div className='Header-text'> Oregon Turtles</div>
         <div className='spacer'></div>
         <p>Welcome! Oregon’s native freshwater turtles need your help! At this website you can learn more about turtles in our state, why our native species are in trouble, and what you can do to help. You can also download the Oregon Turtles App to help researchers keep track of turtles across the state by reporting your observations of turtles, or use the online reporting tool.</p>
@@ -40,14 +42,9 @@ function HomePage() {
       </div>
 
       <div className="spacer"></div>
-      <div className="spacer"></div> */}
+    <div className="spacer"></div> 
 
 
-      <Link to ="/testing">
-    <button> please god work</button>
-  </Link>
-
-  
 
 
       {/* Bottom Bar */}
