@@ -1,0 +1,6 @@
+to create a link to another page use
+ <Link to="/profiles">
+
+
+
+    

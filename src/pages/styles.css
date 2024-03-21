@@ -1,0 +1,49 @@
+/* styles.css */
+
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+  }
+
+
+  .Top-bar {
+    background-color: darkgreen;
+    color: rgb(194, 52, 52);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding doesn't affect the width */
+    z-index: 999; /* Ensure it's above other elements */
+
+  }
+
+
+.bottom-bar {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+
+  .spacer {
+    height: 20px; /* Adjust the height as needed */
+  }
+
+  .app-container {
+    height: 100vh;
+    overflow-y: auto;
+    background-image: url('../public/backround.png');
+    background-size: cover; /* This will make the image cover the entire container */
+    background-repeat: repeat; /* This will prevent the image from repeating */
+    background-position:center; /* This will center the image */
+    min-height: 100vh;
+  }
+  
