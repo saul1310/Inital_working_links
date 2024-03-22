@@ -23,15 +23,18 @@ function HomePage() {
           </button>
           </Link>
         </div>
-        <div className='top-bar-right-item'>
-          <b>LOG IN</b>
+          <div className='top-bar-right-item'>
+        
+        <Link to ="/login">
+          <button><b> LOGIN</b>
+          </button>
+          </Link>
         </div>
+        
         <div className='top-bar-right-item'>
           <b>MENU</b>
         </div>
       </div>
-    
-    
     
     <div className='centered-text'>
         <div className='Header-text'> Oregon Turtles</div>

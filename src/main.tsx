@@ -9,6 +9,7 @@ import ProfilesPage from './pages/ProfilesPage';
 import Register from './pages/Register';
 
 import './index.css';
+import Login from './pages/Login';
 
 const router = createBrowserRouter([
   {
@@ -26,10 +27,17 @@ const router = createBrowserRouter([
       },
     ],
   },
+  
   {
     path: '/register', // Absolute path without nesting
     element: <Register />,
   },
+
+  {
+    path: '/login',
+    element: <Login/>,
+  },
+
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

@@ -24,8 +24,13 @@ export default function Register() {
      
         </div>
         <div className='top-bar-right-item'>
-          <b>LOG IN</b>
+        
+        <Link to ="/login">
+          <button><b> LOGIN</b>
+          </button>
+          </Link>
         </div>
+        
         <div className='top-bar-right-item'>
           <b>MENU</b>
         </div>
@@ -43,16 +48,22 @@ export default function Register() {
         <input type="text" />
         Please enter last Name.
         <input type="text"/>
-        Orginization (Optional)
+        Organization (Optional)
         <input type="text"/>
         Email
         <input type="text"/>
-        Phone number (optional)
+        Phone number (Optional)
         <input type="text"/>
         Password
         <input type="text"/>
         Confrim Password 
         <input type="text"/>
+        <div className='spacer'></div>
+
+        <div className='green-box'>
+          
+          <p>Your personal data is only used to contact you in case your submission needs clarification. Your data will not be given away.</p>
+        </div>
 
       </div>
 
