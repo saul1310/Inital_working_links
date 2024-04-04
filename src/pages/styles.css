@@ -6,11 +6,15 @@
 .Top-bar {
   height: 80px; /* Adjust as needed */
   background-color:  rgb(105,171,145);
+  width: 100%;
+  position:fixed;
+  top: 0;
   color: #fff;
   display:flex;
   justify-content: space-between; 
   align-items: center;
-  position: relative;
+
+
 }
 
 .top-bar-item-left {
@@ -41,21 +45,42 @@
   top: 25%; /* Position at the vertical center */
   left: 50%; /* Position at the horizontal center */
   transform: translate(-50%, -50%);  /* Adjusted height to fit remaining screen */
+  color: aliceblue;
 }
 
 .Header-text{
   font-size: 24px;
+  font-weight: bold; /* Make the text bold */
+  text-align: center; /* Center the text horizontally */
+  width: 100%; /* Ensure the text takes up the full width */
 }
+ 
 
-
+/* For the non navbar page links on main page */
+.transparent-div {
+  background-color: rgba(255, 255, 255, 0.09); 
+  display: flex;
+  height: 150px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 /* 
 
                                 styles  for Register and Login */
 .yellow-line {
   height: 2px; /* Adjust the height as needed */
   background-color: rgb(188, 190, 17);
-  width: 100%;
+
   width:30%;
+}
+
+.grey-line{
+  height: 2px;
+  background-color: dimgray;
+  width:30% ;
+  margin: 0 auto;
+
 }
 
 .green-box {
@@ -82,10 +107,10 @@
 }
 
 .bottom-bar {
-  background-color: rgb(105,171,145);
+  background-color: rgb(105, 171, 145);
   color: white;
   padding: 10px;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -100,12 +125,13 @@
                                       Backround */
 
 .app-container {
+  position: relative; /* Ensure the app-container is positioned */
   height: 200vh;
   overflow-y: auto;
   background-image: url('../public/backround.png');
-  background-size: cover; /* This will make the image cover the entire container */
-  background-repeat: repeat; /* This will prevent the image from repeating */
-  background-position: center; /* This will center the image */
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
   min-height: 100vh;
 }
 body {
@@ -113,3 +139,12 @@ body {
   margin: 0; /* Reset default margin */
   padding: 0; /* Reset default padding */
 }
+
+/* ButtonGroup component styles */
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  justify-content: space-evenly;
+}
+
