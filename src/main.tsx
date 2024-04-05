@@ -7,6 +7,9 @@ import NotFoundPage from './pages/NotFoundPage';
 import ProfilePage from './pages/ProfilePage';
 import ProfilesPage from './pages/ProfilesPage';
 import Register from './pages/Register';
+import Report from './pages/Report';
+import FAQ from './pages/FAQ';
+import HowtoHelp from './pages/HowtoHelp'
 
 import './index.css';
 import Login from './pages/Login';
@@ -37,6 +40,18 @@ const router = createBrowserRouter([
     path: '/login',
     element: <Login/>,
   },
+
+  {
+    path: '/report',
+    element: <Report/>
+  },
+
+  { path: '/turtlefaq',
+    element: <FAQ/>
+  },
+  
+
+
 
 ]);
 

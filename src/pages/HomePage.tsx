@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import { TouchableOpacity } from 'react-native-web';
 import './styles.css'; // Import CSS file
-import Register from './Register';
 
 
 function HomePage() {
@@ -38,6 +36,34 @@ function HomePage() {
       
     
     <div className='centered-text'>
+      <div className='spacer'></div>
+
+      {/* Lmao fix this  */}
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+<div className='spacer'></div>
+      
    
       
         <div className='Header-text'> Oregon Turtles</div>
@@ -108,7 +134,25 @@ function HomePage() {
       
         </div>
       <div className='transparent-div'>
+        <Link to="/report">
+          <b> Report A Turtle</b>
+        </Link>
         
+      </div>
+      <div className='spacer'></div>
+
+      <div className='t-div-container'>
+        < div className='transparent-div-small'>
+          <Link to="/turtlefaq"> Turtle FAQ</Link> </div>
+        < div className='transparent-div-small'> </div>
+        < div className='transparent-div-small'> </div>
+        < div className='transparent-div-small'> </div>
+        < div className='transparent-div-small'> </div>
+        < div className='transparent-div-small'> </div>
+      
+          
+
+  
       </div>
         
       </div>
