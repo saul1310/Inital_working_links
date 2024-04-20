@@ -9,10 +9,10 @@ import ProfilesPage from './pages/ProfilesPage';
 import Register from './pages/Register';
 import Report from './pages/Report';
 import FAQ from './pages/FAQ';
-import HowtoHelp from './pages/HowtoHelp'
+import HowtoHelp from './pages/HowtoHelp';
+import Login from './pages/Login';
 
 import './index.css';
-import Login from './pages/Login';
 
 const router = createBrowserRouter([
   {
@@ -46,13 +46,15 @@ const router = createBrowserRouter([
     element: <Report/>
   },
 
-  { path: '/turtlefaq',
+  {
+    path: '/turtlefaq',
     element: <FAQ/>
   },
-  
 
-
-
+  {
+    path: '/howtohelp',
+    element: <HowtoHelp/>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

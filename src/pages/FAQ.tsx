@@ -69,6 +69,9 @@ function HomePage() {
    
       
         <div className='Header-text'> What You Should Know About Turtles</div>
+        <div className='spacer'></div>
+
+        
         
         
       </div>

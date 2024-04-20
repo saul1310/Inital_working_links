@@ -1,6 +1,8 @@
 to create a link to another page use
  <Link to="/profiles">
 
+  <Link />
+
 
 HERE ARE THE LINKS 
 
@@ -24,3 +26,5 @@ HERE ARE THE LINKS
     <button>Go to Not Found Page</button>
   </Link>
     
+
+  
