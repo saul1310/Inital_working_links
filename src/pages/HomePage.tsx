@@ -143,11 +143,11 @@ function HomePage() {
 
       <div className='t-div-container'>
         < div className='transparent-div-small'>
-          <Link to="/turtlefaq"> Turtle FAQ</Link> </div>
+          <Link to="/turtlefaq"> <b>Turtle FAQ</b></Link> </div>
         < div className='transparent-div-small'> <Link to =
-        "howtohelp"> How to Help</Link> </div>
-        < div className='transparent-div-small'> </div>
-        < div className='transparent-div-small'> </div>
+        "howtohelp"> <b>How to Help</b></Link> </div>
+        < div className='transparent-div-small'><Link to='/support'> <b> Support</b></Link> </div>
+        < div className='transparent-div-small'><Link to="/species"> <b> Species</b></Link> </div>
         < div className='transparent-div-small'> </div>
         < div className='transparent-div-small'> </div>
       

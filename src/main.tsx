@@ -12,6 +12,8 @@ import FAQ from './pages/FAQ';
 import HowtoHelp from './pages/HowtoHelp';
 import Login from './pages/Login';
 import Support from './pages/Support';
+import Species from './pages/Species';
+import Turtleconservationareas from './pages/Turtleconservationareas';
 
 import './index.css';
 
@@ -60,6 +62,16 @@ const router = createBrowserRouter([
   {
     path: '/support',
     element: <Support/>
+  },
+
+  {
+    path: '/Species',
+    element: <Species/>
+  },
+
+  {
+    path: '/Turtleconservationareas',
+    element: <Turtleconservationareas/>
   }
 ]);
 

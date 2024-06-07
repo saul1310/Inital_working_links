@@ -43,7 +43,7 @@ function FAQ() {
         {/* Add your spacer divs as needed */}
         <div className='spacer'></div>
         
-        <div className='Header-text'> What You Should Know About Turtles</div>
+        <div className='Header-text'> Turtle Conservation Areas</div>
         <div className='spacer'></div>
 
         {showPopup && (
@@ -60,7 +60,6 @@ function FAQ() {
                 <Link to="/Species"> <button><b> Turtle Species</b> </button></Link>
                 <a href="BSM.pdf" target="_blank" rel="noopener noreferrer">
                 <button><b> Best Managment Practices</b></button> </a>
-                <Link to='/Turtleconservationareas'> <button> <b> Turtle Conservation Areas</b></button></Link>
 
 
             
