@@ -43,7 +43,7 @@ function FAQ() {
         {/* Add your spacer divs as needed */}
         <div className='spacer'></div>
         
-        <div className='Header-text'> What You Should Know About Turtles</div>
+        <div className='Header-text'>Support </div>
         <div className='spacer'></div>
 
         {showPopup && (
@@ -54,7 +54,7 @@ function FAQ() {
                 <Link to="/report"><button><b>Report a Turtle</b></button></Link>
                 <b> FAQ</b>
                 <Link to="/howtohelp"><button> <b> How to Help </b></button></Link>
-                <Link to="/support"> <button> <b> Support </b> </button></Link>
+                <Link to="/support"> <button> <b> Support </b></button></Link>
 
             
               </div>

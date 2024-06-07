@@ -11,6 +11,7 @@ import Report from './pages/Report';
 import FAQ from './pages/FAQ';
 import HowtoHelp from './pages/HowtoHelp';
 import Login from './pages/Login';
+import Support from './pages/Support';
 
 import './index.css';
 
@@ -54,6 +55,11 @@ const router = createBrowserRouter([
   {
     path: '/howtohelp',
     element: <HowtoHelp/>
+  },
+  
+  {
+    path: '/support',
+    element: <Support/>
   }
 ]);
 
