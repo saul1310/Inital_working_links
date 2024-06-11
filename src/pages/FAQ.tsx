@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './styles.css'; // Import CSS file
+import Turtlepic from '../assets/Turtlepic.png'; 
+
 
 function FAQ() {
   const [showPopup, setShowPopup] = useState(false);
@@ -45,11 +47,17 @@ function FAQ() {
         
         <div className='Header-text'> What You Should Know About Turtles</div>
         <div className='spacer'></div>
+        <img src={Turtlepic} alt="Turtle" className='turtle-image' />
 
         {showPopup && (
           <div className="popup-menu">
             <div className="popup-inner">
               <div className="menu-items">
+              <div className='spacer'></div>
+              <div className='spacer'></div>
+              <div className='spacer'></div>
+              <div className='spacer'></div>
+              <div className='spacer'></div>
               <Link to="/"> <button> <b> Home</b></button></Link>
                 <Link to="/report"><button><b>Report a Turtle</b></button></Link>
                 <b> IOS Download</b>

@@ -183,11 +183,11 @@ body {
   top: 200%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: rgb(143, 194, 147);
+  background: rgba(31, 74, 82, 0.822);
   padding: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   z-index: 1000;
-  width: 350px;
+  width: 300px;
   height: 600px;
 }
 
@@ -206,7 +206,7 @@ body {
 }
 
 .popup-button:hover, .popup-close-button:hover {
-  background-color: #45a049;
+  background-color: transparent;
 }
 
 
