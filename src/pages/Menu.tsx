@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './styles.css'; // Import CSS file
-import Turtlepic from '../assets/Turtlepic.png'; 
 
 
-function FAQ() {
+function Menu() {
   const [showPopup, setShowPopup] = useState(false);
 
   const togglePopup = () => {
@@ -38,17 +37,7 @@ function FAQ() {
         </div>
       </div>
       
-      <div className='centered-text'>
-        <div className='spacer'></div>
-        {/* Add your spacer divs as needed */}
-        <div className='spacer'></div>
-        {/* Add your spacer divs as needed */}
-        <div className='spacer'></div>
-        
-        <div className='Header-text'> What You Should Know About Turtles</div>
-        <div className='spacer'></div>
-        <img src={Turtlepic} alt="Turtle" className='turtle-image' />
-
+      
         {showPopup && (
           <div className="popup-menu">
             <div className="popup-inner">
@@ -79,16 +68,8 @@ function FAQ() {
         )}
         
       </div>
-      
-      {/* Bottom Bar */}
-      <div className="bottom-bar">
-        {/* Add content for the bottom bar */}
-        <div className="bottom-bar-content">
-          <div className='spacer'></div>
-        </div>
-      </div>
-    </div>
+  
   );
 }
 
-export default FAQ;
+export default Menu;
